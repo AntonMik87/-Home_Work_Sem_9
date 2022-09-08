@@ -4,7 +4,7 @@ Console.Clear();
 void PrintNumber(int n)
 {
     if (n < 1) return;
-    PrintNumber(n - 1);
     Console.Write(n + " ");
+    PrintNumber(n - 1);
 }
 PrintNumber(20);
